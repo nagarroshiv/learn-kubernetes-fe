@@ -14,13 +14,13 @@ function App() {
 
     const request = { title, description };
     console.log(request);
-    await axios.post("http://localhost:3001/api/post", request)
-    window.location.reload()
+    await axios.post(`${[process.env.REACT_APP_API_URI]}/api/post`, request);
+    window.location.reload();
   };
 
   const getPosts = async () => {
     let reqOptions = {
-      url: "http://localhost:3001/api/posts",
+      url: `${[process.env.REACT_APP_API_URI]}/api/posts`,
       method: "GET"
     };
 
