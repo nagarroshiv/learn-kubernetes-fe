@@ -1,0 +1,38 @@
+.app {
+
+    &_header {
+        margin: 0 !important;
+        padding-top: 16px !important;
+        padding-bottom: 16px !important;
+        background-color: teal;
+    }
+
+    &_form {
+        padding: 32px;
+        flex-basis: 80% !important;
+
+        input {
+            margin-bottom: 16px !important;
+        }
+    }
+
+    &_posts {
+        margin-top: 32px;
+    }
+
+    &_card {
+        padding: 8px !important;
+    }
+}
+
+.flex {
+    display: flex;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
