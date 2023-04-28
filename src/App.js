@@ -35,7 +35,7 @@ function App() {
   return (
     <div className="App">
       <Header as="h2" className="app_header flex justify-center align-center">
-        Learn K8 by deploying MERN app
+        Learn K8 by deploying MERN app V1
       </Header>
       <div className="flex">
         <form onSubmit={createPostHandler} className="app_form">
